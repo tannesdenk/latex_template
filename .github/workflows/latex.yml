@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: LaTeX compilation
-        uses: dante-ev/latex-action@2021-A
+        uses: dante-ev/latex-action@latest
         with:
           # The root LaTeX file to be compiled
           root_file: main.tex
