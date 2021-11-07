@@ -14,3 +14,9 @@ jobs:
         with:
           # The root LaTeX file to be compiled
           root_file: main.tex
+      - name: Archive
+        uses: actions/upload-artifact@v2
+        with:
+          name: build_result
+          path: |
+            main.pdf
